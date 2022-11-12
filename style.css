@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(10, 109, 109);
+}
+
+.left-bar{
+    margin-left: 5%;
+    margin-top: 0.8%;
+}
+
+.right-bar{
+    display: flex;
+    margin-right: 10%;
+    margin-top: 1.2%;
+   
+}
+
+.right-bar h4{
+   margin-right: 10%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+
+.left-content{
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.left-content h1{
+    margin-bottom: 4%;
+}
+
+.left-content p{
+    font-size: large;
+}
+
+.right-content img{
+    margin-top: 50%;
+    height: 270px;
+    width: 400px;
+}
+
+.Gallery{
+    padding-top: 2%;
+    text-align: center;
+    background-color:rgb(240, 233, 223);
+}
+
+.Gallery h1{
+    margin-bottom: 1%;
+}
+
+.Gallery img{
+    height: 200px;
+    width: 300px;
+    margin: 1%;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(230, 206, 176);
+}
+
+.left{
+    margin-left: 10%;
+    padding: 1%;
+}
+
+.right{
+    display: flex;
+    margin-top: 1.4%;
+    margin-right: 5%;
+}
+
+.right i{
+    width: 40px;
+    margin-right: 10%;
+}
